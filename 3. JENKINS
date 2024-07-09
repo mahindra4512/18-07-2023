@@ -124,7 +124,7 @@ ADD -- > name: raham loc: gudivada
 user cant define jenkins variables.
 
 JENKINS ADMIN ACTIVITES:
-vim /usr/lib/systemd/system/jenkins.service 
+vim /usr/lib/systemd/system/jenkins.service (this command is for to do admin activities)
 line 67 (8080=8069)
 systemctl daemon-reload
 systemctl restart jenkins.service
