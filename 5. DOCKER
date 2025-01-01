@@ -325,7 +325,7 @@ touch php{1..10}
 docker run -it --name cont6 --volumes-from cont5 --privileged=true ubuntu
 
 
-4. SHARING LOCAL FILES
+4. SHARING LOCAL FILES TO CONTAINERS
 
 cd 
 touch raham{1..10}
