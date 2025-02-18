@@ -83,11 +83,11 @@ K8's cannot communicate with containers, they can communicate with only pods.
 
 
 commands:
-kubectl run pod1 --image hpakala53/paytmtrain:latest
-kubectl get pods/pod/po
-kubectl get pod -o wide
-kubectl describe pod pod1 
-kubectl delete pod pod1 
+kubectl run pod1 --image hpakala53/paytmtrain:latest  :to create pod
+kubectl get pods/pod/po :to get list of pods
+kubectl get pod -o wide :to get list of pods
+kubectl describe pod pod1 : to get complete information about pod
+kubectl delete pod pod1  :to delete pod
 
 MANIFEST:
 vim abc.yml
