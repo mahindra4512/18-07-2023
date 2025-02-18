@@ -101,7 +101,7 @@ spec:
     - image: hpakala53/paytmtrain:latest
       name: cont1
 
-kubectl create -f abc.yml
+kubectl create -f abc.yml    : to crate resorce(pod) in Declarative (Manifest file)
 
 kubectl get pods/pod/po
 kubectl get pod -o wide
