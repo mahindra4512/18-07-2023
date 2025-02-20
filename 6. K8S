@@ -195,16 +195,16 @@ spec:
 
 kubectl create -f abc.yml
 
-kubectl get rs
+kubectl get rs :      to get replicasets
 kubectl get po
 kubectl describe rs train-rs
 kubectl delete pod pod-name 
-kubectl get pod -l app=train
+kubectl get pod -l app=train : to see labels
 
-kubectl scale rs/train-rs --replicas=10
-kubectl scale rs/train-rs --replicas=5
+kubectl scale rs/train-rs --replicas=10 : to scale replica set
+kubectl scale rs/train-rs --replicas=5(lifo pattern follows)
 LIFO: last pod will be deleted first 
-kubectl delete rs train-rs
+kubectl delete rs train-rs :to delete replicaset(pods also deleted)
 
 kubectl edit rs/train-rs -- > go and update image
 it will update on rs  : kubectl describe rs train-rs
