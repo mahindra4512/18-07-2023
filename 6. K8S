@@ -399,8 +399,8 @@ Suggestions:
 
 
 ADMIN ACTIVITES:
-kops edit ig --name=ccitdevops2023.k8s.local nodes-us-east-1a
-kops update cluster --name rahams.k8s.local --yes --admin
+kops edit ig --name=ccitdevops2023.k8s.local nodes-us-east-1a  :scaleing worker noder
+kops update cluster --name rahams.k8s.local --yes --admin      :after scaleing update cluster
 kops rolling-update cluster --yes
 
 kops edit ig --name=ccitdevops2023.k8s.local master-us-east-1a
@@ -408,7 +408,7 @@ kops update cluster --name rahams.k8s.local --yes --admin
 kops rolling-update cluster --yes
 
 TO DELETE CLUSTER:
-kops delete cluster --name rahams.k8s.local --yes 
+kops delete cluster --name=rahams.k8s.local --yes 
 
 KOPS commands are used for cluster activites.
 KUBECTL commands are used for resource activites.
