@@ -15,7 +15,7 @@ cat file1	: to see content
 more file1	: to see content 
 cat>>file1	: to insert the content
 enter ctrl d	: to save the content
-wc		: to show number of lines, words and charcters
+wc		: to show number of lines, words and charcters (wc file1 , wc-l file1 (to show only no of lines))
 cp file1 file2	: to copy the content from file1 to file2
 mv file1 file5	: to rename a file and to move
 rm file1	: to remove file
